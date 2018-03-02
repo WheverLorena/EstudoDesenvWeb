@@ -1,0 +1,48 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+	<script type="text/javascript">
+		
+		var opcione = 1;
+		var num = 0;
+
+		switch(opcione){
+
+
+			case 1:
+				document.write("opcao 1 selecionado "+ num);
+			break;
+
+
+			case 2:
+				document.write("opcao 2 selecionado");
+			break;
+
+			default: 
+				document.write("opcao invalida");
+			}		
+
+			while(num != 10){
+				num++;
+				document.write(num);
+			}
+
+			do{
+
+				num = num + 2;
+				document.write("doc: "+num);
+			}while(num < 100);
+
+			for(var valor = 0; valor < 5; valor++){
+				document.write("for value is: "+valor);
+			}
+
+	</script>
+
+<body>
+
+</body>
+</html>
