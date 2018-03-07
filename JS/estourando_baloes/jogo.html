@@ -11,21 +11,21 @@
 	<body onload="iniciaGame()">
 		<div style="float: left; width: auto; height: 500px;
 		background: #fff; border: solid 1px #a2a2a2;">
-			<table>
+			<table border="0">
 				<tr>
 					<td><img src="imagens/balao_azul_grande.png"/></td>
-					<td>10</td>
+					<td><span id="baloes_inteiros" style="font-size: 40px;"></span></td>
 				</tr>
 			</table>
 			<br/>
-			<table>
+			<table border="0">
 				<tr>
 					<td><img src="imagens/balao_azul_grande_estourado.png"/></td>
-					<td>10</td>
+					<td><span id='baloes_estourados' style="font-size: 40px"></span></td>
 				</tr>
 			</table>
 			<br/>
-				<table border="1" style="width: 140px; height: 132px; text-align: center;">
+				<table border="0" style="width: 140px; height: 132px; text-align: center;">
 				<tr>
 					<td style="background: url('imagens/cronometro.png');">
 							<span id="cronometro" style="color: red; font-size: 30px;"></span>		
@@ -34,7 +34,7 @@
 			</table>
 		</div>
 
-		<div style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom; ">
+		<div style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom; "id="cenario">
 			
 
 		</div>
