@@ -1,0 +1,22 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>evento tela e form</title>
+	<!--<body onload="alert('')">
+		<body onresize="console.log('')">
+	-->
+</head>
+<body onresize="console.log(`pagina foi modificado`)">
+
+	<form>
+		<input onfocus="alert('teste');" onblur="alert('teste2');" type="text"/>
+		
+		<select onchange="alert('dado modificado com sucesso!')">
+			<option value="1">Masculino</option>
+			<option value="2">Feminino</option>
+
+		</select>
+	</form>
+</body>
+</html>
